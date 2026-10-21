@@ -19,7 +19,7 @@ import sys
 
 def sort(numeri):
     # sorted() crea una lista nuova, numeri.sort() modificherebbe quella ricevuta
-    return sorted(numeri)
+    return sorted(numeri, reverse=True)
 
 
 # User story 2 - Dividere due numeri
